@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 
+
+---- TYPOGRAPHY ----
+- FONT SIZES
+  12px - 20px - 24px - 32px - 40px - 48px - 62px
+
+- FONT WEIGHT
+  400 (normal) - 700 (bold)
+
+- LINE HEIGHT
+  1.2 - 1.5
+
+- LETTER SPACING 
+  -2px - 0px
+
+- FONT FAMILY
+  Poppins,sans-serif
+
+---- COLORS ----
+- PRIMARY
+  BASE  : #339af0 (Sky Blue)
+  TINT  : #d0ebff (Arctic)
+  SHADE : #1c7ed6 (Deep Sea)
+
+- SECONDARY
+  BASE  : #9775fa (Lavender)
+  TINT  : #e5dbff (Moonlight Iris)
+  SHADE : #7048e8 (Velvet Night)
+
+- TERTIARY
+  BASE  : #ff922b (Pumpkin)
+  TINT  : #ffe8cc (Dawn)
+  SHADE : #f76707 (Lava)
+
+- GREY
+  BASE  : #495057 (Slate)
+  TINT  : #f1f3f5 (Pebble)
+  SHADE : #212529 (Graphite)
+
+*/
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 62px;
+    font-family: 'Poppins',sans-serif;
+    color: #212529;
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 48px;
+    font-family: 'Poppins',sans-serif;
+    color: #212529;
+}
+
+h3 {
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 40px;
+    font-family: 'Poppins',sans-serif;
+    color: #212529;
+}
+
+p {
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    color: #495057;
+}
+
+a {
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Poppins',sans-serif;
+    color: #495057;
+}
+
+ul {
+    list-style: none;
+}
+
+small {
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+}
