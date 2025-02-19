@@ -128,6 +128,7 @@ h1,h2,h3 {
 
 h1 {
     font-size: var(--text-h1);
+    text-align: center;
 }
 
 h2 {
@@ -140,6 +141,7 @@ h3 {
 
 p {
     font-size: var(--text-paragraph);
+    text-align: center;
 }
 
 a {
@@ -235,12 +237,12 @@ ul {
 
 /* ------ HEADER ------ */
 
-/*
 .header {
-    height: 100vh;
-    min-height: 800px;
+    /*height: 100vh;
+    min-height: 800px;*/
+    display: flex;
+    flex-direction: column;
 }
-*/
 
 /* ------ NAVBAR ------ */
 
@@ -254,7 +256,6 @@ ul {
 
 .nav-btn-container {
     display: flex;
-    align-items: center;
     gap: 2rem;
 }
 
@@ -263,7 +264,6 @@ ul {
 .hero-section {
     height: calc(100vh - var(--nav-hieght));
     min-height: 800px;
-    text-align: center;
     margin-bottom: 30rem;
 } 
 
@@ -278,11 +278,18 @@ ul {
 .hero-btn {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     gap: 1rem;
 }
 
 /* ------ FEATURES SECTION ------ */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
 .features-section {
     max-width: 400px;
@@ -292,10 +299,6 @@ ul {
 
 /* ------ CTA SECTION ------ */
 
-/*
-.cta-section {
-}
-*/
 .cta-section {
     margin-bottom: 30rem;
 }
@@ -342,10 +345,9 @@ ul {
 }
 
 .features-main-heading {
-    text-align: center;
     margin-bottom: 8rem;
 }
 
 .social-section {
-  width: 20px;
+    width: 20px;
 }
